@@ -8,11 +8,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
-gem 'sdoc', '~> 0.4.0', 
+
 
 group :development, :test do
 	gem 'sqlite3'
-end
+	end
 
 group :production do
 	gem 'pg'
@@ -23,4 +23,3 @@ group :doc do
 	gem 'sdoc', require: false
 end
 
-end
