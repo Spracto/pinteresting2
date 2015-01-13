@@ -83,8 +83,8 @@ Rails.application.configure do
 
   config.paperclip_defaults = {
   :storage => :s3,
+  :bucket => ENV['S3_pinternasty'],
   :s3_credentials => {
-    :bucket => ENV['s3_pinternasty'],
     :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
